@@ -1,0 +1,128 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+p {
+  font-size: 12px;
+  color: hsl(229, 6%, 66%);
+}
+
+/* container */
+
+.container-fluid {
+  padding: 3% 15%;
+}
+/* features section */
+
+#features {
+  text-align: center;
+}
+
+#features .container-fluid {
+  padding: 3% 35% 0;
+}
+
+.title-small {
+  font-weight: 100;
+  color: hsl(234, 12%, 34%);
+}
+
+.title-bold {
+  font-weight: bold;
+  color: hsl(231, 7%, 19%);
+}
+
+/* cardbox section */
+
+.image {
+  width: 23%;
+  float: right;
+  margin: 10% 0 0;
+}
+  .card {
+    padding: 5% 7%;
+    border-top-width: 4px;
+    border-top-style: solid;
+    box-shadow: 0 0 14px 0 rgba(3,5,7, .20);
+  }
+  .first {
+    border-top-color: hsl(180, 62%, 55%);
+    margin-top: 100px;
+  }
+  .second {
+    border-top-color: hsl(0, 78%, 62%);
+  }
+  .third {
+    border-top-color: hsl(212, 86%, 64%);
+    margin-top: 100px;
+  }
+  .fourth {
+    border-top-color: hsl(34, 97%, 64%);
+    bottom: 70px;
+  }
+
+  /* Adaptation */
+  @media (max-width: 1440px) {
+    #features .container-fluid {
+      padding: 3% 25% 0;
+    }
+    #cardbox .container-fluid {
+      padding: 2% 5% 0;
+    }
+  }
+
+  @media (max-width: 1200px) {
+
+    #features .container-fluid {
+      padding: 3% 25% 0;
+    }
+    #cardbox .container-fluid {
+      padding: 2% 5% 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #features .container-fluid {
+      padding: 5% 10% 0;
+    }
+    #cardbox .container-fluid {
+      padding: 2% 5% 0;
+    }
+    .first {
+      bottom: 60px;
+    }
+    .second {
+      bottom: 40px;
+    }
+    .third {
+      bottom: 120px;
+    }
+    .fourth {
+      bottom: 100px;
+    }
+  }
+
+  @media (max-width: 544px) {
+    #features .container-fluid {
+      padding: 5% 5% 0;
+    }
+    .first {
+      bottom: 60px;
+    }
+    .second {
+      bottom: 40px;
+    }
+    .third {
+      bottom: 120px;
+    }
+    .fourth {
+      bottom: 100px;
+    }
+  }
+
+    @media (max-width: 375px) {
+      #features .container-fluid {
+        padding: 5% 5% 0;
+      }
+    }
